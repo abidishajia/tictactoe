@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    align-self: center;
+}
+
+#game{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#tic-tac-toe {
+    border-spacing: 0px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#tic-tac-toe td {
+    border: 2px solid #000;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font: 200 60px helvetica neue, arial;
+    cursor: pointer;
+}
+
+#tic-tac-toe tr:first-child td {
+    border-top: none
+}
+
+#tic-tac-toe tr:last-child td {
+    border-bottom: none
+}
+
+#tic-tac-toe tr td:first-child {
+    border-left: none;
+}
+
+#tic-tac-toe tr td:last-child {
+    border-right: none;
+}
+
+#tic-tac-toe td.X {
+    color: #238EE1;
+}
+
+#tic-tac-toe td.O {
+    color: #FF1010;
+}
+
+.endgame {
+  display: none;
+  width: 300px;
+  top: 120px;
+  background-color: rgba(230, 229, 230, 0.9);
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-size: 2em;
+}
